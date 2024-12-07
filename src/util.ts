@@ -10,7 +10,6 @@ export const loadRawInput = (day: string) =>
         F.tap(filename => console.log(`Reading file from ${filename}`)),
         filename => readFileSync(filename, 'utf-8'),
         S.trim,
-        a => a as unknown as string,
     );
 
 export const log = <T>(value: T): T => {
