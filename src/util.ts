@@ -12,3 +12,8 @@ export const loadRawInput = (day: string) =>
         S.trim,
         a => a as unknown as string,
     );
+
+export const log = <T>(value: T): T => {
+    console.log(value);
+    return value;
+};
