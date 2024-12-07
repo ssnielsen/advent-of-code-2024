@@ -1,3 +1,3 @@
-import {run} from './2024-01/day';
+import {run} from './2024-04/day';
 
 run();
